@@ -1,3 +1,5 @@
+
+//THIS IS JUST TO GET THE COMPILER TO STOP GIVING WARNINGS
 const int WHEEL_L_FORWARD = 0;
 const int WHEEL_L_BACK = 0;
 const int WHEEL_R_FORWARD = 0;
@@ -43,6 +45,8 @@ void moveLeft(){};
 void moveRight(){};
 void start(){};
 void stop(){};
+
+//END OF WARNING CODE
 
 void setup() {
     pinMode(WHEEL_L_FORWARD, OUTPUT);
